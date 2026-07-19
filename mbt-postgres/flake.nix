@@ -36,7 +36,6 @@
             wasm-tools component embed wit $TMP/_build/wasm/release/build/gen/gen.wasm \
               -o $TMP/embedded.wasm --world guest --encoding utf16
             wasm-tools component new $TMP/embedded.wasm -o $out/component.wasm
-            cp $TMP/tsubu.json $out/tsubu.json
           '';
         };
       };

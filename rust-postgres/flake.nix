@@ -56,7 +56,6 @@
               runHook preInstall
               mkdir -p $out
               cp target/wasm32-wasip2/release/rust_postgres.wasm $out/component.wasm
-              cp tsubu.json $out/tsubu.json
               runHook postInstall
             '';
           };
