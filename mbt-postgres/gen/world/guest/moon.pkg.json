@@ -1,0 +1,8 @@
+{
+  "warn-list": "-44",
+  "import": [
+    { "path": "tsubu/mbt-postgres/interface/tsubu_cloud/logger/logger", "alias": "logger" },
+    { "path": "tsubu/mbt-postgres/interface/tsubu_cloud/postgres/postgres", "alias": "postgres" },
+    { "path": "tsubu/mbt-postgres/interface/tsubu_cloud/handler/types", "alias": "types" }
+  ]
+}

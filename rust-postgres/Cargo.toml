@@ -1,0 +1,18 @@
+[package]
+name = "rust-postgres"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-bindgen = "0.58.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tsubu-router = { git = "https://github.com/okuyama-hiroyuki/tsubu-router-rs" }
+
+[profile.release]
+opt-level = "s"
+lto = true

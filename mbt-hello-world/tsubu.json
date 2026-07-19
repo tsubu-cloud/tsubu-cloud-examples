@@ -1,0 +1,6 @@
+{
+  "$schema": "https://tsubu-cloud.net/tsubu.schema.json",
+  "fetch": [],
+  "postgres": [],
+  "variables": []
+}

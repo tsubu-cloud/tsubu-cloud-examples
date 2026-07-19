@@ -1,0 +1,414 @@
+{
+  "packages": [
+    {
+      "root": "moonbitlang/core",
+      "rel": "abort",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/abort/abort.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "argparse",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/argparse/argparse.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "array",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/array/array.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bench",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bench/bench.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bigint",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bigint/bigint.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bool",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bool/bool.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "buffer",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/buffer/buffer.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "builtin",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/builtin/builtin.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "byte",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/byte/byte.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bytes",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bytes/bytes.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bytes/internal/regex_engine",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bytes/internal/regex_engine/regex_engine.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bytes/internal/regex_engine/ast",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bytes/internal/regex_engine/ast/ast.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "bytes/internal/regex_engine/symbol_map",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/bytes/internal/regex_engine/symbol_map/symbol_map.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "char",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/char/char.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "cmp",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/cmp/cmp.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "coverage",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/coverage/coverage.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "debug",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/debug/debug.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "deque",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/deque/deque.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "double",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/double/double.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "encoding/ascii",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/encoding/ascii/ascii.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "encoding/base64",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/encoding/base64/base64.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "encoding/utf16",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/encoding/utf16/utf16.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "encoding/utf8",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/encoding/utf8/utf8.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "env",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/env/env.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "error",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/error/error.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "float",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/float/float.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "hashmap",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/hashmap/hashmap.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "hashset",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/hashset/hashset.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/array",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/array/array.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/hashmap",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/hashmap/hashmap.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/hashset",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/hashset/hashset.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/internal/path",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/internal/path/path.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/internal/sparse_array",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/internal/sparse_array/sparse_array.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/priority_queue",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/priority_queue/priority_queue.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/sorted_map",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/sorted_map/sorted_map.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/sorted_set",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/sorted_set/sorted_set.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "immut/vector",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/immut/vector/vector.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "int",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/int/int.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "int16",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/int16/int16.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "int64",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/int64/int64.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "internal/regex_engine/automata",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/internal/regex_engine/automata/automata.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "internal/regex_engine/shared_types",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/internal/regex_engine/shared_types/shared_types.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "internal/regex_engine/shared_types/rechar_set",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/internal/regex_engine/shared_types/rechar_set/rechar_set.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "internal/strconv",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/internal/strconv/strconv.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "json",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/json/json.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "lazy",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/lazy/lazy.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "lazy_list",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/lazy_list/lazy_list.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "list",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/list/list.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "math",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/math/math.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "option",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/option/option.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "prelude",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "priority_queue",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/priority_queue/priority_queue.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "queue",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/queue/queue.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "quickcheck",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/quickcheck/quickcheck.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "quickcheck/splitmix",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/quickcheck/splitmix/splitmix.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "random",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/random/random.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "random/internal/random_source",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/random/internal/random_source/random_source.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "range",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/range/range.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "ref",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/ref/ref.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "result",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/result/result.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "set",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/set/set.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "sorted_map",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/sorted_map/sorted_map.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "sorted_set",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/sorted_set/sorted_set.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "strconv",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/strconv/strconv.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "string",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/string/string.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "string/internal/regex_engine",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/string/internal/regex_engine/regex_engine.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "string/internal/regex_engine/ast",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/string/internal/regex_engine/ast/ast.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "string/internal/regex_engine/symbol_map",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/string/internal/regex_engine/symbol_map/symbol_map.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "string/internal/regex_parser",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/string/internal/regex_parser/regex_parser.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "test",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/test/test.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "tuple",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/tuple/tuple.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "uint",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/uint/uint.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "uint16",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/uint16/uint16.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "uint64",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/uint64/uint64.mi"
+    },
+    {
+      "root": "moonbitlang/core",
+      "rel": "unit",
+      "artifact": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/unit/unit.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "gen",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/gen/gen.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "gen/world/guest",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/gen/world/guest/guest.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/fetcher/fetcher",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/fetcher/types",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/interface/tsubu_cloud/fetcher/types/types.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/handler/types",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/interface/tsubu_cloud/handler/types/types.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/logger/logger",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/interface/tsubu_cloud/logger/logger/logger.mi"
+    },
+    {
+      "root": "tsubu/mbt-http",
+      "rel": "world/guest",
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/wasm/debug/build/world/guest/guest.mi"
+    }
+  ]
+}

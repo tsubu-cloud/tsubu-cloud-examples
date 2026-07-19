@@ -1,0 +1,2 @@
+cargo:rustc-link-lib=static=wit_bindgen_cabi0_58_0
+cargo:rustc-link-search=native=/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/wasm32-wasip2/release/build/wit-bindgen-cf28178c84ff2099/out

@@ -1,0 +1,5 @@
+package tsubu-cloud:logger;
+
+interface logger {
+    log: func(message: string);
+}

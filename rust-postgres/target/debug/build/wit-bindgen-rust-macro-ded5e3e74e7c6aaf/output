@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-env=DEBUG_OUTPUT_DIR=/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/wit-bindgen-rust-macro-ded5e3e74e7c6aaf/out

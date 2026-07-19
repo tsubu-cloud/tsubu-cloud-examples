@@ -1,0 +1,10 @@
+package guest:handler;
+
+world guest {
+    use tsubu-cloud:handler/types.{request, response};
+
+    import tsubu-cloud:logger/logger;
+    import tsubu-cloud:fetcher/fetcher;
+
+    export handler: func(request: request) -> response;
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://tsubu-cloud.net/tsubu.schema.json",
+  "fetch": [],
+  "postgres": [
+    { "ALIAS": "query", "DATABASE_URL": "postgres://postgres:postgres@localhost:5432/postgres" }
+  ],
+  "variables": []
+}

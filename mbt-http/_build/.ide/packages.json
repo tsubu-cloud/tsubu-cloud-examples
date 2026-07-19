@@ -1,0 +1,790 @@
+{
+  "source_dir": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+  "name": "tsubu/mbt-http",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen",
+      "root": "tsubu/mbt-http",
+      "rel": "gen",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        },
+        {
+          "path": "tsubu/mbt-http/gen/world/guest",
+          "alias": "guest",
+          "fspath": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/gen.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/ffi.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/gen.mi",
+        "-pkg",
+        "tsubu/mbt-http/gen",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.mi:guest",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/gen:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/ffi.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/gen.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/gen_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/gen.mi:gen",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.mi:guest",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/gen_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest",
+      "root": "tsubu/mbt-http",
+      "rel": "gen/world/guest",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/handler.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        },
+        {
+          "path": "tsubu/mbt-http/interface/mbt_http/handler/types",
+          "alias": "types",
+          "fspath": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types"
+        },
+        {
+          "path": "tsubu/mbt-http/interface/tsubu_cloud/fetcher/fetcher",
+          "alias": "fetcher",
+          "fspath": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher"
+        },
+        {
+          "path": "tsubu/mbt-http/interface/tsubu_cloud/logger/logger",
+          "alias": "logger",
+          "fspath": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/ffi.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/handler.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/top.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.mi",
+        "-pkg",
+        "tsubu/mbt-http/gen/world/guest",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi:fetcher",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.mi:logger",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.mi:types",
+        "-pkg-sources",
+        "tsubu/mbt-http/gen/world/guest:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/ffi.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/handler.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest/top.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/gen/world/guest_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi:fetcher",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/gen/world/guest/guest.mi:guest",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.mi:logger",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.mi:types",
+        "-pkg-sources",
+        "tsubu/mbt-http/gen/world/guest_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/gen/world/guest",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types",
+      "root": "tsubu/mbt-http",
+      "rel": "interface/mbt_http/handler/types",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/ffi.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/top.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/mbt_http/handler/types",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/mbt_http/handler/types:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/ffi.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types/top.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/mbt_http/handler/types_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/mbt_http/handler/types/types.mi:types",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/mbt_http/handler/types_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/mbt_http/handler/types",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher",
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/fetcher/fetcher",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/ffi.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/top.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/tsubu_cloud/fetcher/fetcher",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/tsubu_cloud/fetcher/fetcher:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/ffi.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher/top.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/tsubu_cloud/fetcher/fetcher_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/fetcher/fetcher/fetcher.mi:fetcher",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/tsubu_cloud/fetcher/fetcher_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/fetcher/fetcher",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger",
+      "root": "tsubu/mbt-http",
+      "rel": "interface/tsubu_cloud/logger/logger",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/ffi.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/top.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/ffi.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/top.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/tsubu_cloud/logger/logger",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/tsubu_cloud/logger/logger:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/ffi.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger/top.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/interface/tsubu_cloud/logger/logger_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/interface/tsubu_cloud/logger/logger/logger.mi:logger",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/interface/tsubu_cloud/logger/logger_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/interface/tsubu_cloud/logger/logger",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    },
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest",
+      "root": "tsubu/mbt-http",
+      "rel": "world/guest",
+      "files": {
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/ffi_import.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/import.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/prelude"
+        }
+      ],
+      "artifact": "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/world/guest/guest.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/ffi_import.mbt",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/import.mbt",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/world/guest/guest.mi",
+        "-pkg",
+        "tsubu/mbt-http/world/guest",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/world/guest:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest",
+        "-target",
+        "wasm",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/ffi_import.mbt",
+        "-doctest-only",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest/import.mbt",
+        "-include-doctests",
+        "-w",
+        "-44",
+        "-o",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/world/guest/guest.blackbox_test.mi",
+        "-pkg",
+        "tsubu/mbt-http/world/guest_blackbox_test",
+        "-std-path",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle",
+        "-i",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/world/guest/guest.mi:guest",
+        "-i",
+        "/nix/store/6shkbg8vqxpqfw3k9836d7s04xsfvqx3-moonbit/lib/core/_build/wasm/release/bundle/prelude/prelude.mi:prelude",
+        "-pkg-sources",
+        "tsubu/mbt-http/world/guest_blackbox_test:/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/world/guest",
+        "-target",
+        "wasm",
+        "-blackbox-test",
+        "-workspace-path",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http",
+        "-all-pkgs",
+        "/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/mbt-http/_build/.ide/wasm/debug/check/all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    }
+  ],
+  "deps": [],
+  "backend": "wasm",
+  "opt_level": "debug",
+  "source": null
+}

@@ -1,0 +1,14 @@
+/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/deps/serde-31e671011f7284f6.d: /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/serde-d5fe470a63efe550/out/private.rs
+
+/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/deps/libserde-31e671011f7284f6.rlib: /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/serde-d5fe470a63efe550/out/private.rs
+
+/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/deps/libserde-31e671011f7284f6.rmeta: /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/serde-d5fe470a63efe550/out/private.rs
+
+/home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/nixos/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/serde-d5fe470a63efe550/out/private.rs:
+
+# env-dep:OUT_DIR=/home/nixos/repos/tsubu-cloud/tsubu-cloud/examples/rust-postgres/target/debug/build/serde-d5fe470a63efe550/out

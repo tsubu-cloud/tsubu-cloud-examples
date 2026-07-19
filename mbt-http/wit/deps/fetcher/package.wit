@@ -1,0 +1,20 @@
+package tsubu-cloud:fetcher;
+
+interface types {
+    record request {
+        method: string,
+        headers: list<tuple<string, string>>,
+        body: string,
+    }
+
+    record response {
+        status: u16,
+        headers: list<tuple<string, string>>,
+        body: string,
+    }
+}
+
+interface fetcher {
+    use types.{request, response};
+    fetch: func(request: request) -> response;
+}

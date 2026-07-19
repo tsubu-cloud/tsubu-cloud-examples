@@ -1,0 +1,16 @@
+package tsubu-cloud:handler;
+
+interface types {
+    record request {
+        url: string,
+        method: string,
+        headers: list<tuple<string, string>>,
+        body: string,
+    }
+
+    record response {
+        status: u16,
+        headers: list<tuple<string, string>>,
+        body: string,
+    }
+}

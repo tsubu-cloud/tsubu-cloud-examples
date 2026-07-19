@@ -1,0 +1,8 @@
+{
+  "$schema": "https://tsubu-cloud.net/tsubu.schema.json",
+  "fetch": [
+    { "ALIAS": "fetch", "TARGET": "https://example.com" }
+  ],
+  "postgres": [],
+  "variables": []
+}
