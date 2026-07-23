@@ -32,3 +32,23 @@ oras push tsubu-cloud.sakuracr.jp/mbt-http:sha256-${DIGEST} \
   タグは component wasm の内容の sha256 digest を `sha256-` プレフィックス付きで使う
 - `--artifact-type` — wasm アーティファクトであることを示す OCI artifact type
 - `component.wasm:application/wasm` — push するファイルとその media type
+
+## GitHub Container Registry (ghcr.io) への push
+
+GitHub Container Registry を使う場合も同様の手順で push できます。
+
+```sh
+cd /tmp
+DIGEST=$(sha256sum component.wasm | cut -d' ' -f1)
+
+oras push ghcr.io/<org>/mbt-http:sha256-${DIGEST} \
+  --artifact-type application/vnd.wasm.content.layer.v1+wasm \
+  component.wasm:application/wasm
+```
+
+認証には Personal Access Token（`read:packages` / `write:packages` スコープ）または
+GitHub Actions 内であれば `GITHUB_TOKEN` が利用できます。
+
+```sh
+echo $GITHUB_TOKEN | oras login ghcr.io -u <username> --password-stdin
+```
